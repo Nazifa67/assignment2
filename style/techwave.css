@@ -142,6 +142,7 @@ hr{
     top: 8px;
     right: 8px;
 }
+<<<<<<< HEAD
 /* about section */
 #about{
     background-color: #1A0B2E;
@@ -183,6 +184,8 @@ hr{
     font-weight: 400;
 }
 
+=======
+>>>>>>> 9c93b90413d4df89f687a6bfda2f7711c019cd14
 
 @media screen and (max-width: 576px){
     .menu, .navbar button{
@@ -197,6 +200,7 @@ hr{
         font-size: 1.5rem;
     }
 #banner{
+<<<<<<< HEAD
 min-width: 60vw; 
 padding: 90px 16px 40px;
        }  
@@ -221,12 +225,38 @@ padding: 90px 16px 40px;
  .box-container{
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+=======
+min-height: auto; 
+padding: 110px 16px 40px;
+background-size: 110% 100%;
+       } 
+.banner-container{ 
+ gap: 16px; 
+  } 
+.banner-content{
+   max-width: 400px; 
+   margin-top: 20px;
+    } 
+.banner-img{
+ width: 200px; 
+height: 200px;
+}
+.banner-img img{
+ height: 80px;
+  width: 55px; 
+ } 
+.badge{ padding: 8px 16px; 
+  font-size: 16px;
+  top: 10px; 
+  right: -10px; 
+>>>>>>> 9c93b90413d4df89f687a6bfda2f7711c019cd14
  }
 }
  @media screen and (min-width: 992px) {
   .brand{
   font-size: 3rem;
   }
+<<<<<<< HEAD
   .about-container{
     padding: 0 200px;
   }
@@ -234,4 +264,6 @@ padding: 90px 16px 40px;
     display: grid;
     grid-template-columns: repeat(4, 2fr);
   }
+=======
+>>>>>>> 9c93b90413d4df89f687a6bfda2f7711c019cd14
 }
