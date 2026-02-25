@@ -213,7 +213,7 @@ hr{
 }
 .card p{
 font-size: 16px;
-font-weight: 250;
+font-weight: 300;
 }
 .card:nth-child(1){
     grid-row: span 2;
@@ -235,6 +235,81 @@ font-weight: 250;
 .card:nth-child(5){
     grid-row: span 1;
     grid-column: span 1;
+}
+/* featured episode section */
+#episodes{
+    background-color: #1A0B2E;
+}
+.episodes-container{
+padding: 120px 200px;
+}
+.episodes-content{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.video-container{
+    gap: 30px;
+}
+
+.video{
+    padding: 24px;
+    background-color: #250D44;
+    border-radius: 20px;
+}
+.video h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.video p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 400;
+}
+footer{
+    background: url(../assets/footer-bg.png) no-repeat center;
+    background-size: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.social-container{
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 100%; 
+}
+.social{
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ending{
+    font-size: 3rem;
+    font-weight: 700;
+}
+footer p{
+    font-size: 16px;
+    font-weight: 300;
 }
 /* mobile layout */
 @media screen and (max-width: 576px){
@@ -315,6 +390,24 @@ font-weight: 250;
 .card-container{
     gap: 16px;
 }
+.content{
+        padding: 40px 20px;
+        max-width: 450px;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .social-container{
+        max-width: 300px;
+        padding-top: 20px;
+        gap: 16px;
+    }
+
+    .ending{
+        font-size: 2rem;
+    }
+
 }
 
 /* large desktop layout */
