@@ -28,6 +28,22 @@
     font-weight: 600;
     cursor: pointer;
 }
+@keyframes gradientMove {
+    0% {
+        background: linear-gradient(to top right, #F7E93F 20%, #FB09B4 50%, #9100F8);
+    }
+
+    50% {
+        background: linear-gradient(to top right, #9100F8, #F7E93F, #FB09B4);
+    }
+
+    100% {
+        background: linear-gradient(to top right, #F7E93F, #9100F8, #FB09B4);
+    }
+}
+.animation{
+    animation: gradientMove 1s linear infinite;
+}
 
 .gradient{
     background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
@@ -205,6 +221,10 @@ hr{
     background-color: #351165;
     padding: 40px;
     border-radius: 30px;
+}
+.icons{
+    font-size: 40px;
+    width: 100%;
 }
 .card h3{
     font-size: 24px;
